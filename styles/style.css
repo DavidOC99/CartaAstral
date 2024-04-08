@@ -1,0 +1,158 @@
+body {
+    background-image: url(https://noccankani.com/wp-content/uploads/2020/01/carta-astral-noccankani-hosroscopo.png);
+    
+}
+
+#formulario{ 
+    form {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente del formulario */
+    padding: 20px; /* Espaciado interno del formulario */
+    border-radius: 10px; /* Bordes redondeados del formulario */
+    margin: 50px auto; /* Centrar el formulario horizontalmente */
+    max-width: 400px; /* Ancho máximo del formulario */
+  }
+  
+}
+#nav_bar_1{
+    background-color: rgb(10, 137, 168);
+    
+}
+
+
+
+h1 {
+ 
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    font-weight: 600px;
+    color:rgb(2, 217, 255);
+    transition: 0.8s;
+    opacity: 0.8;
+    background-color: #022E51;
+    margin-top: 50px;
+    
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(9, 167, 230);
+    font-weight: 400;
+    text-align: center;
+    margin: 10px;
+}
+ 
+h3 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(254, 253, 254);
+    font-weight: 400;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente del formulario */
+    padding: 20px; /* Espaciado interno del formulario */
+    border-radius: 10px; /* Bordes redondeados del formulario */
+    margin: 50px auto; /* Centrar el formulario horizontalmente */
+    max-width: 400px; /* Ancho máximo del formulario */
+}
+h4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(9, 167, 230);
+    font-weight: 400;
+    
+}
+
+label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: azure;
+    font-weight:300;
+}
+
+button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 30%;
+    padding: 10px;
+    background-color: #022E51;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    align-self: center;
+    text-align: center;
+}
+
+input[type="text"], input[type="email"], input[type="datetime-local"], input[type="time"] {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border-radius: 4px;
+    font-size:20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#carousel-item{
+    padding: 10px;
+    margin: 50px;
+}
+
+table {
+    width: 50vh;
+    align-self: center;
+}
+
+tr:hover{background-color:#022E51 ;}/*Resalta linea en la tabla al acercar cursor*/
+ 
+/*Fuente y formato del texto del table header*/
+th{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+ 
+/*Fuente y formato del texto del contenido de la tabla*/
+td{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+ 
+/*Formato del tamaño de la tabla*/
+th, td{
+    padding: 8px;
+    text-align: left;
+    border-bottom: 3px solid;
+    color: antiquewhite;
+}
+ 
+/*Color de fondo del header*/
+th{
+    background-color: cornflowerblue;
+}
+
+p {
+    color: antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer {
+    margin-top: 35px;
+    align-self: center;
+}
+
+a {
+    color: inherit;
+    align-self: center;
+    padding: 6px;
+    border-radius: 6px;
+}
+
+a:hover{background-color:#00080f ;}
+
+section {
+    margin: 15px;
+}
+
+fieldset {
+    color: antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+
+

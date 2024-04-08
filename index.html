@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carta Astral</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3924/3924420.png" type="image/x-icon">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top" id="nav_bar_1">
+      <div class="container-fluid">
+        <a class="navbar-brand" style="color: snow" href="#">Inicio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" style="color: snow" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Horoscopos
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item"
+                    href="https://www.lavanguardia.com/horoscopo/signos-zodiaco-aries">Aries</a></li>
+                <li><a class="dropdown-item"
+                    href="https://www.lavanguardia.com/horoscopo/signos-zodiaco-tauro">Tauro</a></li>
+                <li><a class="dropdown-item"
+                    href="https://www.lavanguardia.com/horoscopo/signos-zodiaco-geminis">Geminis</a></li>
+                <li><a class="dropdown-item"
+                    href="https://www.lavanguardia.com/horoscopo/signos-zodiaco-cancer">Cancer</a></li>
+                <li><a class="dropdown-item" href="https://www.lavanguardia.com/horoscopo/signos-zodiaco-leo">Leo</a>
+                </li>
+                <li><a class="dropdown-item"
+                    href="https://www.lavanguardia.com/horoscopo/signos-zodiaco-virgo">Virgo</a></li>
+                <li><a class="dropdown-item"
+                    href="https://www.lavanguardia.com/horoscopo/signos-zodiaco-libra">Libra</a></li>
+                <li><a class="dropdown-item"
+                    href="https://www.lavanguardia.com/horoscopo/signos-zodiaco-escorpio">Escorpio</a></li>
+                <li><a class="dropdown-item"
+                    href="https://www.lavanguardia.com/horoscopo/signos-zodiaco-sagitario">Sagitario</a></li>
+                <li><a class="dropdown-item" href="signos.html#capricornio">Capricornio</a></li>
+                <li><a class="dropdown-item"
+                    href="https://www.lavanguardia.com/horoscopo/signos-zodiaco-acuario">Acuario</a></li>
+                <li><a class="dropdown-item"
+                    href="https://www.lavanguardia.com/horoscopo/signos-zodiaco-piscis">Picis</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">About</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Busqueda" aria-label="Search">
+            <button class="btn btn-outline-success" style=" background-color: gray; color: snow;"
+              type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+  <h1>Descubre tu carta astral</h1>
+  <h2>Obtén tu mapa astrológico detallado que representa la posición exacta de los planetas en el zodiaco en el momento
+    exacto de nuestro nacimiento.</h2>
+
+  <section class="formulario" id="formulario">
+    <h3>Ingresa tus datos para iniciar</h3>
+    <form action="">
+      <fieldset>
+        <legend>
+          Mis Datos:
+        </legend>
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre">
+        <label for="email">Email</label>
+        <input type="email" id="email">
+      </fieldset>
+      <fieldset>
+        <legend>
+          Lugar de nacimiento:
+        </legend>
+        <label for="pais">País</label>
+        <input type="text" id="pais">
+        <label for="ciudad">Ciudad</label>
+        <input type="text" id="ciudad">
+      </fieldset>
+      <fieldset>
+        <legend>
+          Fecha y hora de nacimiento:
+        </legend>
+        <label for="date">Fecha y hora de nacimiento</label>
+        <input type="datetime-local" id="fechaNacimiento">
+      </fieldset>
+      <button>Enviar</button>
+    </form>
+    <br>
+
+  </section>
+  <section class="more_about">
+    <table>
+      <tr>
+        <th>Signo Zodiacal</th>
+        <th>Saber más</th>
+      </tr>
+      <tr>
+        <td>Capricornio</td>
+        <td><a href="signos.html#capricornio">Saber más...</a></td>
+      </tr>
+      <tr>
+        <td>Acuario</td>
+        <td><a href="signos.html#acuario">Saber más...</a></td>
+      </tr>
+      <tr>
+        <td>Piscis</td>
+        <td><a href="signos.html#piscis">Saber más...</a></td>
+      </tr>
+      <tr>
+        <td>Aries</td>
+        <td><a href="signos.html#aries">Saber más...</a></td>
+      </tr>
+      <tr>
+        <td>Tauro</td>
+        <td><a href="signos.html#tauro">Saber más...</a></td>
+      </tr>
+      <tr>
+        <td>Géminis</td>
+        <td><a href="signos.html#geminis">Saber más...</a></td>
+      </tr>
+      <tr>
+        <td>Cáncer</td>
+        <td><a href="signos.html#cancer">Saber más...</a></td>
+      </tr>
+      <tr>
+        <td>Leo</td>
+        <td><a href="signos.html#leo">Saber más...</a></td>
+      </tr>
+      <tr>
+        <td>Virgo</td>
+        <td><a href="signos.html#virgo">Saber más...</a></td>
+      </tr>
+      <tr>
+        <td>Libra</td>
+        <td><a href="signos.html#libra">Saber más...</a></td>
+      </tr>
+      <tr>
+        <td>Escorpión</td>
+        <td><a href="signos.html#escorpio">Saber más...</a></td>
+      </tr>
+      <tr>
+        <td>Sagitario</td>
+        <td><a href="signos.html#sagitario">Saber más...</a></td>
+      </tr>
+    </table>
+  </section>
+  <a href="signos.html">
+    <h2>Conoce más sobre tu signo zodiacal!</h2>
+  </a>
+
+  <div> <!--Comienza acordeon-->
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="acr">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+            aria-expanded="true" aria-controls="collapseOne">
+            ¿Qué onda con el eclipse?
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the first item's accordion body.</strong> los eclipses son eventos significativos que pueden
+            tener un impacto en nuestras vidas y en el ambiente energético que nos rodea. Se cree que los eclipses,
+            tanto solares como lunares, representan momentos de cambio, transformación y evolución en varios aspectos de
+            nuestras vidas.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            ¿Para qué sirve intencionar?
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong> Intencionar se refiere al acto de enfocar y dirigir la energía.</strong> la voluntad o el
+            pensamiento hacia un objetivo específico. La intención es una parte fundamental en muchas prácticas mágicas
+            y esotéricas, ya que se cree que el poder de la mente y la voluntad pueden influir en el mundo físico o en
+            los eventos de una manera significativa..
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            ¿Las piedras tienen poder?
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>Muchas culturas antiguas han atribuido propiedades curativas y espirituales a ciertas piedras y
+              cristales.</strong> Estas creencias se han transmitido a lo largo del tiempo y continúan siendo parte de
+            las prácticas espirituales y de bienestar en todo el mundo.Algunos de sus usos son: sanación y equilibrio
+            energético; apoyo espiritual; aumento de la intención y manifestación; bienestar emocional y mental.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> <!--Fin de acordeon-->
+
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img
+          src="https://images.vexels.com/media/users/3/298681/isolated/lists/7f38f88965c44ba70b43210d99a37885-mesa-de-adivinacia-n.png"
+          class="d-block" alt="centered">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="..." class="d-block" alt="centered image">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="..." class="d-block" alt="centered image">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <footer>
+    <h4>Sala 1</h4>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
